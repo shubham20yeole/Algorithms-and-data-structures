@@ -9,8 +9,8 @@
 - zOthers
 
 ### Leetcode
-- [877. Stone Game](https://leetcode.com/problems/stone-game/description/ "877. Stone Game")
-
+1. [877. Stone Game](https://github.com/shubham20yeole/Java/blob/master/Leetcode/StoneGame877.java) | [Reference](https://leetcode.com/problems/stone-game/description/)
+2. [313. Super Ugly Number](https://github.com/shubham20yeole/Java/blob/master/Leetcode/SuperUglyNumber.java) | [Reference](https://leetcode.com/problems/super-ugly-number/description/)
 
 ### List
 - [AADoublyLinkedList](https://github.com/shubham20yeole/Java/blob/master/List/AADoublyLinkedList.java)
