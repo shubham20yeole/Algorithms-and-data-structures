@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/search-a-2d-matrix-ii
 package Matrix;
 
 /**
@@ -11,7 +12,7 @@ package Matrix;
  *
  */
 
-public class FindElementWithoutIteration {
+public class Searcha2DMatrixII240 {
 
 	public static void main(String[] args) {
 		int[][] mat = new int[10][10];

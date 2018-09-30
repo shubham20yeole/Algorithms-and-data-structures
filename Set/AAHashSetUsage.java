@@ -1,3 +1,4 @@
+//https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
 package Set;
 
 import java.util.*;

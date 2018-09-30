@@ -1,9 +1,17 @@
+//https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/
 package zOthers;
 
 import java.util.*;
 
 public class PrimeFactors {
   public static void main(String[] args) {
+  	
+  	
+  	
+  	char c = '9';
+  	System.out.println(c-'0' + 1);
+  	
+  	
       int number = 4;
       int count = 2;
       

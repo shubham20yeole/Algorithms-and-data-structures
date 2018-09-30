@@ -1,3 +1,4 @@
+//https://leetcode.com/problems/super-ugly-number/description/
 package LeetCode;
 
 import java.util.*;
