@@ -58,7 +58,7 @@ class BinaryTreeUpsideDown156 {
 	public static void main(String[] args) {
 		BinaryTreeUpsideDown156 tree = new BinaryTreeUpsideDown156(); 
 		
-		Utils utils = new Utils();
+				Utils utils = new Utils();
 		
         tree.root = new TreeNode(1); 
         tree.root.left = new TreeNode(2); 

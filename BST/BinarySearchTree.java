@@ -72,7 +72,7 @@ public class BinarySearchTree {
 		bst.add(95);
 		bst.add(105);
 
-		Utils utils = new Utils();
+		UtilsBST utils = new UtilsBST();
 
 		utils.printLine("BST HEIGHT: " + getHeight(root)); utils.printLine();
 
@@ -130,7 +130,7 @@ public class BinarySearchTree {
 
 	public static void printLevelOrder() {
 		int height = getHeight(root);
-		Utils utils = new Utils();
+		UtilsBST utils = new UtilsBST();
 
 		for (int i = 1; i <= height; i++) {
 			printGivenLevel(root, i);

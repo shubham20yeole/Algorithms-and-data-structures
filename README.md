@@ -1,8 +1,8 @@
-# Java Algorithms (60)
+# Java Algorithms (62)
 ### Table of contents
 
 - [Array (17)](https://github.com/shubham20yeole/Java/tree/master/Array)
-- [BST (6)](https://github.com/shubham20yeole/Java/tree/master/BST)
+- [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (6)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [Graph (1)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [LeetCode (5)](https://github.com/shubham20yeole/Java/tree/master/LeetCode)
@@ -50,7 +50,7 @@
 
 17. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
-### BST (6)
+### BST (8)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 2. BinaryTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
@@ -59,9 +59,13 @@
 
 4. BSTIterator.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BSTIterator.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
-5. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+5. FlattenBinaryTreetoLinkedList114.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/FlattenBinaryTreetoLinkedList114.java) , [Reference](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)
 
-6. TreeNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/TreeNode.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+6. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+
+7. TreeNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/TreeNode.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+
+8. UtilsBST.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/UtilsBST.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 ### Bucket (6)
 1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/Bucket/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
