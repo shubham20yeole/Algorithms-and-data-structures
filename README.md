@@ -1,7 +1,7 @@
-# Java Algorithms (62)
+# Java Algorithms (63)
 ### Table of contents
 
-- [Array (17)](https://github.com/shubham20yeole/Java/tree/master/Array)
+- [Array (18)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (6)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [Graph (1)](https://github.com/shubham20yeole/Java/tree/master/Graph)
@@ -15,40 +15,42 @@
 - [zOthers (4)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
-### Array (17)
+### Array (18)
 1. AsteroidCollision735.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/AsteroidCollision735.java) , [Reference](https://leetcode.com/problems/asteroid-collision/)
 
-2. CombinationSum39.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CombinationSum39.java) , [Reference](https://leetcode.com/problems/combination-sum/description/)
+2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](ckage Array;)
 
-3. ContainerWithMostWater11.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ContainerWithMostWater11.java) , [Reference](https://leetcode.com/problems/container-with-most-water/)
+3. CombinationSum39.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CombinationSum39.java) , [Reference](https://leetcode.com/problems/combination-sum/description/)
 
-4. ExclusiveTimeofFunctions636.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ExclusiveTimeofFunctions636.java) , [Reference](https://leetcode.com/problems/exclusive-time-of-functions/)
+4. ContainerWithMostWater11.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ContainerWithMostWater11.java) , [Reference](https://leetcode.com/problems/container-with-most-water/)
 
-5. FindMinimuminRotatedSortedArray153.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindMinimuminRotatedSortedArray153.java) , [Reference](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+5. ExclusiveTimeofFunctions636.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ExclusiveTimeofFunctions636.java) , [Reference](https://leetcode.com/problems/exclusive-time-of-functions/)
 
-6. FirstMissingPositive41.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FirstMissingPositive41.java) , [Reference](https://leetcode.com/problems/first-missing-positive/)
+6. FindMinimuminRotatedSortedArray153.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindMinimuminRotatedSortedArray153.java) , [Reference](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
-7. GenerateParentheses22.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/GenerateParentheses22.java) , [Reference](https://leetcode.com/problems/generate-parentheses/)
+7. FirstMissingPositive41.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FirstMissingPositive41.java) , [Reference](https://leetcode.com/problems/first-missing-positive/)
 
-8. MaximumProductSubarray152.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MaximumProductSubarray152.java) , [Reference](https://leetcode.com/problems/maximum-product-subarray)
+8. GenerateParentheses22.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/GenerateParentheses22.java) , [Reference](https://leetcode.com/problems/generate-parentheses/)
 
-9. MeetingRoomsII253.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MeetingRoomsII253.java) , [Reference](https://leetcode.com/problems/meeting-rooms-ii)
+9. MaximumProductSubarray152.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MaximumProductSubarray152.java) , [Reference](https://leetcode.com/problems/maximum-product-subarray)
 
-10. MergeIntervals56.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MergeIntervals56.java) , [Reference](https://leetcode.com/problems/merge-intervals)
+10. MeetingRoomsII253.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MeetingRoomsII253.java) , [Reference](https://leetcode.com/problems/meeting-rooms-ii)
 
-11. NextPermutation31.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/NextPermutation31.java) , [Reference](https://leetcode.com/problems/next-permutation)
+11. MergeIntervals56.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MergeIntervals56.java) , [Reference](https://leetcode.com/problems/merge-intervals)
 
-12. SearchinRotatedSortedArray33.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SearchinRotatedSortedArray33.java) , [Reference](https://leetcode.com/problems/search-in-rotated-sorted-array)
+12. NextPermutation31.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/NextPermutation31.java) , [Reference](https://leetcode.com/problems/next-permutation)
 
-13. SubarraySumEqualsK560.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SubarraySumEqualsK560.java) , [Reference](https://leetcode.com/problems/subarray-sum-equals-k)
+13. SearchinRotatedSortedArray33.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SearchinRotatedSortedArray33.java) , [Reference](https://leetcode.com/problems/search-in-rotated-sorted-array)
 
-14. Subsets78.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Subsets78.java) , [Reference](https://leetcode.com/problems/subsets)
+14. SubarraySumEqualsK560.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SubarraySumEqualsK560.java) , [Reference](https://leetcode.com/problems/subarray-sum-equals-k)
 
-15. ThreeSum15.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSum15.java) , [Reference](https://leetcode.com/problems/3sum)
+15. Subsets78.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Subsets78.java) , [Reference](https://leetcode.com/problems/subsets)
 
-16. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
+16. ThreeSum15.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSum15.java) , [Reference](https://leetcode.com/problems/3sum)
 
-17. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
+17. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
+
+18. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
 ### BST (8)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
