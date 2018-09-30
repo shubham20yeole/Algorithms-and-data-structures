@@ -18,7 +18,7 @@
 ### Array (18)
 1. AsteroidCollision735.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/AsteroidCollision735.java) , [Reference](https://leetcode.com/problems/asteroid-collision/)
 
-2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](ckage Array;)
+2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](https://leetcode.com/problems/coin-change)
 
 3. CombinationSum39.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CombinationSum39.java) , [Reference](https://leetcode.com/problems/combination-sum/description/)
 
