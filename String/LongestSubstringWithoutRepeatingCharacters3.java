@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/longest-substring-without-repeating-characters
-package LeetCode;
+package String;
 
 import java.util.*;
 

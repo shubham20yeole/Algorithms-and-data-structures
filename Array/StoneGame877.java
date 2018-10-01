@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/stone-game/description/
-package LeetCode;
+package Array;
 import java.util.*;
 
 /**

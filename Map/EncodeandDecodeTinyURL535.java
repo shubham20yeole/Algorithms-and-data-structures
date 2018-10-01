@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/encode-and-decode-tinyurl
-package LeetCode;
+package Map;
 
 import java.util.*;
 

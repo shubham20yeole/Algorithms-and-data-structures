@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/super-ugly-number/description/
-package LeetCode;
+package Array;
 
 import java.util.*;
 

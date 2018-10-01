@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/task-scheduler
-package Bucket;
+package Array;
 
 import java.util.*;
 import java.util.Map.Entry;

@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/decode-string
-package Bucket;
+package String;
 import java.util.*;
 import Utils.*;
 
