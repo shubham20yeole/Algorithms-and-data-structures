@@ -1,10 +1,10 @@
-# Java Algorithms (63)
+# Java Algorithms (64)
 ### Table of contents
 
 - [Array (18)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (6)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
-- [Graph (1)](https://github.com/shubham20yeole/Java/tree/master/Graph)
+- [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [LeetCode (5)](https://github.com/shubham20yeole/Java/tree/master/LeetCode)
 - [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (1)](https://github.com/shubham20yeole/Java/tree/master/Map)
@@ -82,8 +82,10 @@
 
 6. TaskScheduler621.java [Git](https://github.com/shubham20yeole/Java/blob/master/Bucket/TaskScheduler621.java) , [Reference](https://leetcode.com/problems/task-scheduler)
 
-### Graph (1)
-1. EvaluateDivision399.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/EvaluateDivision399.java) , [Reference](https://leetcode.com/problems/evaluate-division)
+### Graph (2)
+1. CourseSchedule207.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/CourseSchedule207.java) , [Reference](https://leetcode.com/problems/course-schedule/description/)
+
+2. EvaluateDivision399.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/EvaluateDivision399.java) , [Reference](https://leetcode.com/problems/evaluate-division)
 
 ### LeetCode (5)
 1. EncodeandDecodeTinyURL535.java [Git](https://github.com/shubham20yeole/Java/blob/master/LeetCode/EncodeandDecodeTinyURL535.java) , [Reference](https://leetcode.com/problems/encode-and-decode-tinyurl)
