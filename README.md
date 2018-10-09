@@ -1,4 +1,4 @@
-# Java Algorithms (67)
+# Java Algorithms (68)
 ### Table of contents
 
 - [Array (22)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -9,7 +9,7 @@
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (7)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
-- [String (9)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [String (10)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (4)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
@@ -120,24 +120,26 @@
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-### String (9)
+### String (10)
 1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
 
 2. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
 
 3. LongestSubstringWithoutRepeatingCharacters3.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestSubstringWithoutRepeatingCharacters3.java) , [Reference](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-4. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
+4. MinimumWindowSubstring76.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumWindowSubstring76.java) , [Reference](ckage String;)
 
-5. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
+5. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
 
-6. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
+6. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
 
-7. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
+7. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
 
-8. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+8. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
 
-9. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+9. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+
+10. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
 
 ### Utils (4)
 1. ListNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/ListNode.java) , [Reference](https://leetcode.com/tag/linked-list/)
