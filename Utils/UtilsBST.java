@@ -1,8 +1,7 @@
 //https://www.geeksforgeeks.org/binary-search-tree-data-structure/
-package BST;
+package Utils;
 
 import java.util.*;
-
 import Utils.*;
 
 /**
@@ -15,7 +14,7 @@ public class UtilsBST extends Utils{
 
 	public static TreeNode root;
 
-	UtilsBST() {
+	public UtilsBST() {
 		this.root = null;
 	}
 

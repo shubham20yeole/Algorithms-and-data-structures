@@ -1,16 +1,16 @@
-# Java Algorithms (65)
+# Java Algorithms (67)
 ### Table of contents
 
 - [Array (22)](https://github.com/shubham20yeole/Java/tree/master/Array)
-- [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
+- [BST (7)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (7)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
-- [String (8)](https://github.com/shubham20yeole/Java/tree/master/String)
-- [Utils (2)](https://github.com/shubham20yeole/Java/tree/master/Utils)
+- [String (9)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (4)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
@@ -59,7 +59,7 @@
 
 22. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
-### BST (8)
+### BST (7)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 2. BinaryTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
@@ -72,9 +72,7 @@
 
 6. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
 
-7. TreeNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/TreeNode.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
-
-8. UtilsBST.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/UtilsBST.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+7. MagicNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/MagicNumber.java) , [Reference](ckage BST;)
 
 ### Bucket (2)
 1. NestedListWeightSumII364.java [Git](https://github.com/shubham20yeole/Java/blob/master/Bucket/NestedListWeightSumII364.java) , [Reference](https://leetcode.com/problems/nested-list-weight-sum-ii)
@@ -122,7 +120,7 @@
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-### String (8)
+### String (9)
 1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
 
 2. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
@@ -139,10 +137,16 @@
 
 8. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
 
-### Utils (2)
+9. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+
+### Utils (4)
 1. ListNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/ListNode.java) , [Reference](https://leetcode.com/tag/linked-list/)
 
-2. Utils.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/Utils.java) , [Reference](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html)
+2. TreeNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/TreeNode.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+
+3. Utils.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/Utils.java) , [Reference](https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html)
+
+4. UtilsBST.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/UtilsBST.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 ### zOthers (4)
 1. ArraysCollectionsExceptionsComparartor.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/ArraysCollectionsExceptionsComparartor.java) , [Reference](https://www.mkyong.com/java8/java-8-lambda-comparator-example/)
