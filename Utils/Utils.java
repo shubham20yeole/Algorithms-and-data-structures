@@ -1,6 +1,8 @@
 //https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html
 package Utils;
 
+import java.util.List;
+
 public class Utils {
 
 	public void printLine(String data) {
@@ -34,6 +36,13 @@ public class Utils {
 			}
 			System.out.println();
 		}
+	}
+
+	public void printList(List<String> list) {
+		list.forEach(item -> {
+			System.out.print(item);
+		});
+		System.out.println();
 	}
 
 	public void printMatrix(int[][] mat) {

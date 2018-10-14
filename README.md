@@ -1,7 +1,7 @@
-# Java Algorithms (74)
+# Java Algorithms (75)
 ### Table of contents
 
-- [Array (27)](https://github.com/shubham20yeole/Java/tree/master/Array)
+- [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (7)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
@@ -15,7 +15,7 @@
 - [zOthers (2)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
-### Array (27)
+### Array (28)
 1. AsteroidCollision735.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/AsteroidCollision735.java) , [Reference](https://leetcode.com/problems/asteroid-collision/)
 
 2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](https://leetcode.com/problems/coin-change)
@@ -68,7 +68,9 @@
 
 26. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
 
-27. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
+27. TopKFrequentWords692.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentWords692.java) , [Reference](https://leetcode.com/problems/top-k-frequent-words/description/)
+
+28. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
 ### BST (7)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
