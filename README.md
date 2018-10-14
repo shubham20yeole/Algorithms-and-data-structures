@@ -1,4 +1,4 @@
-# Java Algorithms (73)
+# Java Algorithms (71)
 ### Table of contents
 
 - [Array (26)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -11,7 +11,7 @@
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
 - [String (10)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
-- [zOthers (4)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
+- [zOthers (2)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
 ### Array (26)
@@ -160,13 +160,9 @@
 
 4. UtilsBST.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/UtilsBST.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
-### zOthers (4)
+### zOthers (2)
 1. ArraysCollectionsExceptionsComparartor.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/ArraysCollectionsExceptionsComparartor.java) , [Reference](https://www.mkyong.com/java8/java-8-lambda-comparator-example/)
 
-2. GenerateComment.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/GenerateComment.java) , [Reference](https://github.com/shubham20yeole/Java)
-
-3. ListMapSet.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/ListMapSet.java) , [Reference](https://beginnersbook.com/2015/01/difference-between-list-set-and-map-in-java/)
-
-4. PrimeFactors.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/PrimeFactors.java) , [Reference](https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/)
+2. PrimeFactors.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/PrimeFactors.java) , [Reference](https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/)
 
 
