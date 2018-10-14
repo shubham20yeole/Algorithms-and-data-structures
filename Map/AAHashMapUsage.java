@@ -2,7 +2,9 @@
 package Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 // Methods to remember:
 // containsKey, containsValue, get, getOrDefault, putAll, replace, remove, entrySet, lambda function, keySet
@@ -65,6 +67,8 @@ public class AAHashMapUsage {
 
 		System.out.println(hm); // Prints {1=Shubham, 2=Yeole}
 
+		String ssss = "hello";
+		char[] arraychar = ssss.toCharArray();
 		// ****************************** ITERATE MAP ******************************
 
 		// USING ENTRYSET
@@ -78,8 +82,15 @@ public class AAHashMapUsage {
 		});
 
 		// USING KEYSET
-		for (Object key : hm.keySet()) {
+		for (Integer key : hm.keySet()) {
 			System.out.println("Key : " + key + " Value : " + hm.get(key));
+		}
+
+		// USING Iterator
+		Iterator<Entry<Integer, String>> entries = hm.entrySet().iterator();
+		while (entries.hasNext()) {
+			Entry<Integer, String> entry = entries.next();
+			System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
 		}
 
 	}
