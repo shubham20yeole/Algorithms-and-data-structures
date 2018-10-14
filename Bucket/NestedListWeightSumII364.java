@@ -1,14 +1,15 @@
 //https://leetcode.com/problems/nested-list-weight-sum-ii
 package Bucket;
 
-import java.util.*;
-import Utils.*;
+import Utils.Utils;
+import java.util.List;
 
 // This is the interface that allows for creating nested lists.
 // You should not implement it, or speculate about its implementation
 class NestedInteger {
 	// Constructor initializes an empty nested list.
 	Integer value;
+
 	public NestedInteger() {
 	}
 

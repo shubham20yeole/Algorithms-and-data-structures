@@ -1,16 +1,19 @@
 //https://www.geeksforgeeks.org/binary-search-tree-data-structure/
 package Utils;
 
-import java.util.*;
-import Utils.*;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author shubham.yeole
- * @reference 
+ * @reference
  *
  *
  */
-public class UtilsBST extends Utils{
+public class UtilsBST extends Utils {
 
 	public static TreeNode root;
 
@@ -29,7 +32,7 @@ public class UtilsBST extends Utils{
 
 		TreeNode curr = root, prev = null;
 
-		while(true) {
+		while (true) {
 			prev = curr;
 
 			if (data > prev.val) {
@@ -61,16 +64,20 @@ public class UtilsBST extends Utils{
 				TreeNode cur = q.poll();
 				System.out.print(cur.val + ", ");
 
-				if (cur.right != null) s.add(cur.right);
-				if (cur.left != null) s.add(cur.left);
+				if (cur.right != null)
+					s.add(cur.right);
+				if (cur.left != null)
+					s.add(cur.left);
 			}
 
 			System.out.println();
 			while (!s.isEmpty()) {
 				TreeNode cur = s.pop();
 				System.out.print(cur.val + ", ");
-				if (cur.right != null) q.add(cur.right);
-				if (cur.left != null) q.add(cur.left);
+				if (cur.right != null)
+					q.add(cur.right);
+				if (cur.left != null)
+					q.add(cur.left);
 			}
 			System.out.println();
 		}
@@ -92,18 +99,17 @@ public class UtilsBST extends Utils{
 			return;
 		if (level == 1)
 			System.out.print(root.val + " ");
-		else if (level > 1)
-		{
-			printGivenLevel(root.left, level-1);
-			printGivenLevel(root.right, level-1);
+		else if (level > 1) {
+			printGivenLevel(root.left, level - 1);
+			printGivenLevel(root.right, level - 1);
 		}
 	}
 
 	public void printDiagonalOrder(TreeNode root) {
-		if (root == null) return;
+		if (root == null)
+			return;
 
 		Queue<TreeNode> q = new LinkedList<TreeNode>();
-
 
 		while (root != null) {
 			q.add(root);
@@ -127,7 +133,8 @@ public class UtilsBST extends Utils{
 	}
 
 	public static int getHeight(TreeNode root) {
-		if (root == null) return 0;
+		if (root == null)
+			return 0;
 
 		int rh = getHeight(root.right) + 1;
 		int lh = getHeight(root.left) + 1;
@@ -135,27 +142,27 @@ public class UtilsBST extends Utils{
 		return Math.max(rh, lh);
 	}
 
-	//IN ORDER:Recursion LEFT - ROOT - RIGHT	
+	// IN ORDER:Recursion LEFT - ROOT - RIGHT
 	public void recursiveInOrder(TreeNode root) {
-		if(root != null) {
+		if (root != null) {
 			recursiveInOrder(root.left);
 			System.out.print(root.val + ", ");
 			recursiveInOrder(root.right);
 		}
 	}
 
-	//PRE ORDER: RECURSION ROOT - LEFT - RIGHT	
+	// PRE ORDER: RECURSION ROOT - LEFT - RIGHT
 	public void recursivePreOrder(TreeNode root) {
-		if(root != null) {
+		if (root != null) {
 			System.out.print(root.val + ", ");
 			recursivePreOrder(root.left);
 			recursivePreOrder(root.right);
 		}
 	}
 
-	//POST ORDER: LEFT - RIGHT - ROOT	
+	// POST ORDER: LEFT - RIGHT - ROOT
 	public void recursivePostOrder(TreeNode root) {
-		if(root != null) {
+		if (root != null) {
 			recursivePostOrder(root.left);
 			recursivePostOrder(root.right);
 			System.out.print(root.val + ", ");
@@ -163,31 +170,31 @@ public class UtilsBST extends Utils{
 	}
 
 	public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-		
+
 		int height = getHeight(root);
 		List<List<Integer>> ans = new LinkedList<List<Integer>>();
-		
+
 		for (int i = 0; i < height; i++) {
 			List<Integer> sa = new LinkedList<Integer>();
-			
+
 			sa = getZigzagLevelOrder(root, i, sa);
-			
-			if(i % 2 != 0) Collections.reverse(sa);
-			
+
+			if (i % 2 != 0)
+				Collections.reverse(sa);
+
 			ans.add(sa);
 		}
 		return ans;
 	}
-	
+
 	public static List<Integer> getZigzagLevelOrder(TreeNode root, int level, List<Integer> sa) {
 		if (root == null)
 			return sa;
 		if (level == 1)
 			sa.add(root.val);
-		else if (level > 1)
-		{
-			printGivenLevel(root.left, level-1);
-			printGivenLevel(root.right, level-1);
+		else if (level > 1) {
+			printGivenLevel(root.left, level - 1);
+			printGivenLevel(root.right, level - 1);
 		}
 		return sa;
 	}

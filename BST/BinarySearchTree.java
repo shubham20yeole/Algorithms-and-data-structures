@@ -1,13 +1,16 @@
 //https://www.geeksforgeeks.org/binary-search-tree-data-structure/
 package BST;
 
-import java.util.*;
-
-import Utils.*;
+import Utils.UtilsBST;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+import java.util.Stack;
 
 /**
  * @author shubham.yeole
- * @reference 
+ * @reference
  *
  *
  */
@@ -40,7 +43,7 @@ public class BinarySearchTree {
 
 		Node curr = root, prev = null;
 
-		while(true) {
+		while (true) {
 			prev = curr;
 
 			if (data > prev.data) {
@@ -74,31 +77,48 @@ public class BinarySearchTree {
 
 		UtilsBST utils = new UtilsBST();
 
-		utils.printLine("BST HEIGHT: " + getHeight(root)); utils.printLine();
+		utils.printLine("BST HEIGHT: " + getHeight(root));
+		utils.printLine();
 
 		utils.printLine("printLevelOrder with height");
-		printLevelOrder(); utils.printLine();
+		printLevelOrder();
+		utils.printLine();
 
 		utils.printLine("printLevelOrder with queue");
-		printLevelOrder(root); utils.printLine(); utils.printLine();
+		printLevelOrder(root);
+		utils.printLine();
+		utils.printLine();
 
 		utils.printLine("103. Binary Tree Zigzag Level Order Traversal");
-		printZigZagLevelOrder(root); utils.printLine(); utils.printLine();
+		printZigZagLevelOrder(root);
+		utils.printLine();
+		utils.printLine();
 
 		utils.printLine("recursiveInOrder");
-		bst.recursiveInOrder(root); utils.printLine();
-		bst.nonRecursiveInorder(root); utils.printLine(); utils.printLine();
+		bst.recursiveInOrder(root);
+		utils.printLine();
+		bst.nonRecursiveInorder(root);
+		utils.printLine();
+		utils.printLine();
 
 		utils.printLine("printDiagonalOrder");
-		bst.printDiagonalOrder(root); utils.printLine(); utils.printLine();
+		bst.printDiagonalOrder(root);
+		utils.printLine();
+		utils.printLine();
 
 		utils.printLine("recursivePreOrder");
-		bst.recursivePreOrder(root); utils.printLine();
-		bst.nonRecursivePreOrder(root); utils.printLine(); utils.printLine();
+		bst.recursivePreOrder(root);
+		utils.printLine();
+		bst.nonRecursivePreOrder(root);
+		utils.printLine();
+		utils.printLine();
 
 		utils.printLine("recursivePostOrder");
-		bst.recursivePostOrder(root); utils.printLine();
-		bst.nonRecursivePostOrder(root); utils.printLine(); utils.printLine();
+		bst.recursivePostOrder(root);
+		utils.printLine();
+		bst.nonRecursivePostOrder(root);
+		utils.printLine();
+		utils.printLine();
 	}
 
 	private static void printZigZagLevelOrder(Node root) {
@@ -113,16 +133,20 @@ public class BinarySearchTree {
 				Node cur = q.poll();
 				System.out.print(cur.data + ", ");
 
-				if (cur.right != null) s.add(cur.right);
-				if (cur.left != null) s.add(cur.left);
+				if (cur.right != null)
+					s.add(cur.right);
+				if (cur.left != null)
+					s.add(cur.left);
 			}
 
 			System.out.println();
 			while (!s.isEmpty()) {
 				Node cur = s.pop();
 				System.out.print(cur.data + ", ");
-				if (cur.right != null) q.add(cur.right);
-				if (cur.left != null) q.add(cur.left);
+				if (cur.right != null)
+					q.add(cur.right);
+				if (cur.left != null)
+					q.add(cur.left);
 			}
 			System.out.println();
 		}
@@ -144,16 +168,16 @@ public class BinarySearchTree {
 			return;
 		if (level == 1)
 			System.out.print(root.data + " ");
-		else if (level > 1)
-		{
-			printGivenLevel(root.left, level-1);
-			printGivenLevel(root.right, level-1);
+		else if (level > 1) {
+			printGivenLevel(root.left, level - 1);
+			printGivenLevel(root.right, level - 1);
 		}
 	}
 
 	public static void printLevelOrder(Node root) {
 
-		if (root == null) return;
+		if (root == null)
+			return;
 
 		Queue<Node> q = new LinkedList<Node>();
 
@@ -164,16 +188,18 @@ public class BinarySearchTree {
 			Node curr = q.poll();
 			System.out.print(curr.data + ", ");
 
-			if (curr.left != null) q.add(curr.left);
-			if (curr.right != null) q.add(curr.right);
+			if (curr.left != null)
+				q.add(curr.left);
+			if (curr.right != null)
+				q.add(curr.right);
 		}
 	}
 
 	public void printDiagonalOrder(Node root) {
-		if (root == null) return;
+		if (root == null)
+			return;
 
 		Queue<Node> q = new LinkedList<Node>();
-
 
 		while (root != null) {
 			q.add(root);
@@ -197,7 +223,8 @@ public class BinarySearchTree {
 	}
 
 	private static int getHeight(Node root) {
-		if (root == null) return 0;
+		if (root == null)
+			return 0;
 
 		int rh = getHeight(root.right) + 1;
 		int lh = getHeight(root.left) + 1;
@@ -205,18 +232,19 @@ public class BinarySearchTree {
 		return Math.max(rh, lh);
 	}
 
-	//IN ORDER:Recursion LEFT - ROOT - RIGHT	
+	// IN ORDER:Recursion LEFT - ROOT - RIGHT
 	private void recursiveInOrder(Node root) {
-		if(root != null) {
+		if (root != null) {
 			recursiveInOrder(root.left);
 			System.out.print(root.data + ", ");
 			recursiveInOrder(root.right);
 		}
 	}
 
-	//IN ORDER: LEFT - ROOT - RIGHT	
+	// IN ORDER: LEFT - ROOT - RIGHT
 	private void nonRecursiveInorder(Node root) {
-		if (root == null) return;
+		if (root == null)
+			return;
 
 		Stack<Node> s = new Stack<Node>();
 
@@ -234,18 +262,19 @@ public class BinarySearchTree {
 		}
 	}
 
-	//PRE ORDER: RECURSION ROOT - LEFT - RIGHT	
+	// PRE ORDER: RECURSION ROOT - LEFT - RIGHT
 	private void recursivePreOrder(Node root) {
-		if(root != null) {
+		if (root != null) {
 			System.out.print(root.data + ", ");
 			recursivePreOrder(root.left);
 			recursivePreOrder(root.right);
 		}
 	}
 
-	//IN ORDER: LEFT - ROOT - RIGHT	
+	// IN ORDER: LEFT - ROOT - RIGHT
 	private void nonRecursivePreOrder(Node root) {
-		if (root == null) return;
+		if (root == null)
+			return;
 
 		Stack<Node> s = new Stack<Node>();
 
@@ -263,64 +292,67 @@ public class BinarySearchTree {
 		}
 	}
 
-	//POST ORDER: LEFT - RIGHT - ROOT	
+	// POST ORDER: LEFT - RIGHT - ROOT
 	private void recursivePostOrder(Node root) {
-		if(root != null) {
+		if (root != null) {
 			recursivePostOrder(root.left);
 			recursivePostOrder(root.right);
 			System.out.print(root.data + ", ");
 		}
 	}
 
-	//POST ORDER: LEFT - RIGHT - ROOT	
+	// POST ORDER: LEFT - RIGHT - ROOT
 	private void nonRecursivePostOrder(Node root) {
-		if(root == null) return;
+		if (root == null)
+			return;
 
 		Stack<Node> s1 = new Stack<Node>();
 		Stack<Node> s2 = new Stack<Node>();
 
 		s1.push(root);
 
-		while(!s1.isEmpty()) {
+		while (!s1.isEmpty()) {
 			Node curr = s1.pop();
 
-			if(curr.left != null) s1.push(curr.left);
-			if(curr.right != null) s1.push(curr.right);
+			if (curr.left != null)
+				s1.push(curr.left);
+			if (curr.right != null)
+				s1.push(curr.right);
 
 			s2.push(curr);
 		}
 
-		while ( !s2.isEmpty()) {
+		while (!s2.isEmpty()) {
 			System.out.print(s2.pop().data + ", ");
 		}
 	}
 
 	public List<List<Integer>> zigzagLevelOrder(Node root) {
-		
+
 		int height = getHeight(root);
 		List<List<Integer>> ans = new LinkedList<List<Integer>>();
-		
+
 		for (int i = 0; i < height; i++) {
 			List<Integer> sa = new LinkedList<Integer>();
-			
+
 			sa = getZigzagLevelOrder(root, i, sa);
-			
-			if(i % 2 != 0) Collections.reverse(sa);
-			
+
+			if (i % 2 != 0)
+				Collections.reverse(sa);
+
 			ans.add(sa);
 		}
 		return ans;
 	}
-	
+
 	private static List<Integer> getZigzagLevelOrder(Node root, int level, List<Integer> sa) {
 		if (root == null)
 			return sa;
 		if (level == 1)
 			sa.add(root.data);
-		else if (level > 1)
-		{
-			printGivenLevel(root.left, level-1);
-			printGivenLevel(root.right, level-1);
+		else if (level > 1) {
+			printGivenLevel(root.left, level - 1);
+			printGivenLevel(root.right, level - 1);
 		}
 		return sa;
 	}
