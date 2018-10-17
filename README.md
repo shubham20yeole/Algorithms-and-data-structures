@@ -1,8 +1,8 @@
-# Java Algorithms (75)
+# Java Algorithms (78)
 ### Table of contents
 
 - [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
-- [BST (7)](https://github.com/shubham20yeole/Java/tree/master/BST)
+- [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
 - [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
@@ -10,6 +10,7 @@
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (9)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
+- [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
 - [String (10)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (2)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
@@ -72,20 +73,22 @@
 
 28. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
-### BST (7)
+### BST (8)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 2. BinaryTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 3. BinaryTreeUpsideDown156.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTreeUpsideDown156.java) , [Reference](https://leetcode.com/problems/binary-tree-upside-down)
 
-4. BSTIterator.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BSTIterator.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+4. BinaryTreeVerticalOrderTransversal314.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTreeVerticalOrderTransversal314.java) , [Reference](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
-5. FlattenBinaryTreetoLinkedList114.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/FlattenBinaryTreetoLinkedList114.java) , [Reference](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)
+5. BSTIterator.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BSTIterator.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
-6. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+6. FlattenBinaryTreetoLinkedList114.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/FlattenBinaryTreetoLinkedList114.java) , [Reference](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)
 
-7. MagicNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/MagicNumber.java) , [Reference](ckage BST;)
+7. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
+
+8. MagicNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/MagicNumber.java) , [Reference](ckage BST;)
 
 ### Bucket (2)
 1. NestedListWeightSumII364.java [Git](https://github.com/shubham20yeole/Java/blob/master/Bucket/NestedListWeightSumII364.java) , [Reference](https://leetcode.com/problems/nested-list-weight-sum-ii)
@@ -139,6 +142,11 @@
 
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
+
+### Stack (2)
+1. BasicCalculator224.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/BasicCalculator224.java) , [Reference](https://leetcode.com/problems/basic-calculator/)
+
+2. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
 ### String (10)
 1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
