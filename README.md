@@ -1,8 +1,8 @@
-# Java Algorithms (80)
+# Java Algorithms (81)
 ### Table of contents
 
 - [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
-- [BST (8)](https://github.com/shubham20yeole/Java/tree/master/BST)
+- [BST (9)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
 - [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
@@ -74,7 +74,7 @@
 
 28. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
-### BST (8)
+### BST (9)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
 2. BinaryTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinaryTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
@@ -90,6 +90,8 @@
 7. HouseRobberIII337.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/HouseRobberIII337.java) , [Reference](https://leetcode.com/problems/house-robber-iii)
 
 8. MagicNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/MagicNumber.java) , [Reference](ckage BST;)
+
+9. VerticalTreeOrderTransversal314.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/VerticalTreeOrderTransversal314.java) , [Reference](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
 ### Bucket (2)
 1. NestedListWeightSumII364.java [Git](https://github.com/shubham20yeole/Java/blob/master/Bucket/NestedListWeightSumII364.java) , [Reference](https://leetcode.com/problems/nested-list-weight-sum-ii)
