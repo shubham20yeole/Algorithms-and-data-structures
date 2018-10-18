@@ -1,4 +1,4 @@
-# Java Algorithms (78)
+# Java Algorithms (80)
 ### Table of contents
 
 - [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -11,7 +11,8 @@
 - [Matrix (9)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
 - [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
-- [String (10)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [String (11)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (2)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
@@ -148,7 +149,7 @@
 
 2. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
-### String (10)
+### String (11)
 1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
 
 2. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
@@ -165,9 +166,14 @@
 
 8. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
 
-9. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+9. SimplifyPath71.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SimplifyPath71.java) , [Reference](https://leetcode.com/problems/simplify-path/)
 
-10. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+10. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+
+11. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+
+### Trie (1)
+1. ImplementTrie208.java [Git](https://github.com/shubham20yeole/Java/blob/master/Trie/ImplementTrie208.java) , [Reference](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ### Utils (4)
 1. ListNode.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/ListNode.java) , [Reference](https://leetcode.com/tag/linked-list/)
