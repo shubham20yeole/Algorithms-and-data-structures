@@ -1,4 +1,4 @@
-# Java Algorithms (81)
+# Java Algorithms (82)
 ### Table of contents
 
 - [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -8,7 +8,7 @@
 - [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
-- [Matrix (9)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
+- [Matrix (10)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
 - [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
 - [String (11)](https://github.com/shubham20yeole/Java/tree/master/String)
@@ -124,24 +124,26 @@
 
 2. EncodeandDecodeTinyURL535.java [Git](https://github.com/shubham20yeole/Java/blob/master/Map/EncodeandDecodeTinyURL535.java) , [Reference](https://leetcode.com/problems/encode-and-decode-tinyurl)
 
-### Matrix (9)
+### Matrix (10)
 1. FriendCircles547.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/FriendCircles547.java) , [Reference](https://leetcode.com/problems/friend-circles)
 
 2. MakingALargeIsland827.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/MakingALargeIsland827.java) , [Reference](https://leetcode.com/problems/making-a-large-island)
 
 3. NumberOfIslands200.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/NumberOfIslands200.java) , [Reference](https://leetcode.com/problems/number-of-islands)
 
-4. RotateImage48.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/RotateImage48.java) , [Reference](https://leetcode.com/problems/rotate-image)
+4. QueueReconstructionByHeight406.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/QueueReconstructionByHeight406.java) , [Reference](https://leetcode.com/problems/queue-reconstruction-by-height/)
 
-5. Searcha2DMatrixII240.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/Searcha2DMatrixII240.java) , [Reference](https://leetcode.com/problems/search-a-2d-matrix-ii)
+5. RotateImage48.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/RotateImage48.java) , [Reference](https://leetcode.com/problems/rotate-image)
 
-6. SetMatrixZeroes73.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SetMatrixZeroes73.java) , [Reference](https://leetcode.com/problems/set-matrix-zeroes/description/)
+6. Searcha2DMatrixII240.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/Searcha2DMatrixII240.java) , [Reference](https://leetcode.com/problems/search-a-2d-matrix-ii)
 
-7. SpiralMatrix54.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SpiralMatrix54.java) , [Reference](https://leetcode.com/problems/spiral-matrix)
+7. SetMatrixZeroes73.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SetMatrixZeroes73.java) , [Reference](https://leetcode.com/problems/set-matrix-zeroes/description/)
 
-8. UniquePathsII63.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/UniquePathsII63.java) , [Reference](https://leetcode.com/problems/unique-paths-ii)
+8. SpiralMatrix54.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SpiralMatrix54.java) , [Reference](https://leetcode.com/problems/spiral-matrix)
 
-9. WordSearchII212.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/WordSearchII212.java) , [Reference](https://leetcode.com/problems/word-search-ii/description/)
+9. UniquePathsII63.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/UniquePathsII63.java) , [Reference](https://leetcode.com/problems/unique-paths-ii)
+
+10. WordSearchII212.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/WordSearchII212.java) , [Reference](https://leetcode.com/problems/word-search-ii/description/)
 
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)

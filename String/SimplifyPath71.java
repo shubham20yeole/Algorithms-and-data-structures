@@ -51,7 +51,7 @@ public class SimplifyPath71 {
 		}
 
 		if (ans.length() <= 1)
-			return ans;
+			return "/" + ans;
 		return "/" + ans.substring(0, ans.length() - 1);
 	}
 
