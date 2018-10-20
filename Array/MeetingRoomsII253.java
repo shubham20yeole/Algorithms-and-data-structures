@@ -1,6 +1,8 @@
 //https://leetcode.com/problems/meeting-rooms-ii
 package Array;
 
+import java.util.Arrays;
+
 /**
  * @author shubham.yeole
  * @reference https://leetcode.com/problems/meeting-rooms-ii/description/
@@ -19,6 +21,33 @@ package Array;
 public class MeetingRoomsII253 {
 	public static void main(String[] args) {
 
+	}
+
+	public int minMeetingRooms(Interval[] intervals) {
+		int[] start = new int[intervals.length];
+		int[] end = new int[intervals.length];
+		int pos = 0;
+		for (Interval interval : intervals) {
+			start[pos] = interval.start;
+			end[pos] = interval.end;
+			pos++;
+		}
+
+		Arrays.sort(start);
+		Arrays.sort(end);
+
+		int p1 = 0, p2 = 0, rooms = intervals.length;
+
+		while (p1 < intervals.length && p2 < intervals.length) {
+			if (end[p2] <= start[p1]) {
+				rooms--;
+				p2++;
+			}
+
+			p1++;
+		}
+
+		return rooms;
 	}
 }
 
