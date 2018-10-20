@@ -14,36 +14,38 @@ public class FirstMissingPositive41 {
 
 		FirstMissingPositive41 cn = new FirstMissingPositive41();
 
-		utils.printLine(cn.firstMissingPositive(new int[] { 31, 12, 0, 11 }));
+		// utils.printLine(cn.firstMissingPositive(new int[] { 1, 2, 3 }));
+		// utils.printLine(cn.firstMissingPositive(new int[] { 1, 1000 }));
+		// utils.printLine(cn.firstMissingPositive(new int[] { 11, 3, 9, 1, 2, 8, 7, 5,
+		// 4, 6 }));
+		utils.printLine(cn.firstMissingPositive(new int[] { 3, 4, -1, 1 }));
 
 	}
 
 	public int firstMissingPositive(int[] nums) {
-		int n = nums.length;
-		for (int i = 0; i < n; i++) {
-			if (nums[i] < 0 || nums[i] > n) {
-				nums[i] = 0;
-			}
-		}
+		int len = nums.length;
+		if (len == 0)
+			return 1;
+		else if (len == 1 && nums[0] != 1)
+			return 1;
 
-		for (int num : nums) {
-			if (num != 0) {
-				int index = Math.abs(num) - 1;
-				if (nums[index] == 0) {
-					nums[index] = -(index + 1);
-				} else {
-					nums[index] = -Math.abs(nums[index]);
-				}
+		for (int i = 0; i < len; i++) {
+			int curr = nums[i];
+			int temp = 0;
+
+			while (curr != 0 && curr >= 0 && curr <= len && curr != nums[curr - 1]) {
+				temp = nums[curr - 1];
+				nums[curr - 1] = curr;
+				curr = temp;
 			}
 		}
 
 		System.out.println(Arrays.toString(nums));
-
-		for (int i = 0; i < n; i++) {
-			if (nums[i] >= 0) {
+		for (int i = 0; i < len; i++) {
+			int curr = nums[i];
+			if (curr != i + 1)
 				return i + 1;
-			}
 		}
-		return n + 1;
+		return len + 1;
 	}
 }

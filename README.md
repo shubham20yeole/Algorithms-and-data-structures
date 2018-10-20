@@ -1,4 +1,4 @@
-# Java Algorithms (82)
+# Java Algorithms (83)
 ### Table of contents
 
 - [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -14,7 +14,7 @@
 - [String (11)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
-- [zOthers (2)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
+- [zOthers (3)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
 ### Array (28)
@@ -188,9 +188,11 @@
 
 4. UtilsBST.java [Git](https://github.com/shubham20yeole/Java/blob/master/Utils/UtilsBST.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
-### zOthers (2)
+### zOthers (3)
 1. ArraysCollectionsExceptionsComparartor.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/ArraysCollectionsExceptionsComparartor.java) , [Reference](https://www.mkyong.com/java8/java-8-lambda-comparator-example/)
 
-2. PrimeFactors.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/PrimeFactors.java) , [Reference](https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/)
+2. NthRootOfNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/NthRootOfNumber.java) , [Reference](https://leetcode.com/problems/sqrtx/)
+
+3. PrimeFactors.java [Git](https://github.com/shubham20yeole/Java/blob/master/zOthers/PrimeFactors.java) , [Reference](https://www.geeksforgeeks.org/print-all-prime-factors-of-a-given-number/)
 
 
