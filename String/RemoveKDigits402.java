@@ -1,9 +1,9 @@
 //https://leetcode.com/problems/remove-k-digits
 package String;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashSet;
+import java.util.PriorityQueue;
+import java.util.Set;
 
 /**
  * @author shubham.yeole
@@ -30,51 +30,79 @@ import java.util.List;
  */
 public class RemoveKDigits402 {
 
+	// Logic behind this question is to iterate through the num string and at any
+	// point if you find current number is less than privious number, delete all the
+	// numbers greater than curr number prior to current index
 	public static void main(String[] args) {
-		System.out.println(minifiedNumber("5472219", 3)); // 2219
-		System.out.println(minifiedNumber("1432219", 3)); // 1219
-		System.out.println(minifiedNumber("10200", 1)); // 200
-		System.out.println(minifiedNumber("10", 2)); // 0
+
+		RemoveKDigits402 className = new RemoveKDigits402();
+
+		System.out.println(className.removeKdigits("5472219", 3)); // 2219
+		System.out.println(className.removeKdigits("1432219", 3)); // 1219
+		System.out.println(className.removeKdigits("10200", 1)); // 200
+		System.out.println(className.removeKdigits("10", 2)); // 0
+		System.out.println(className.removeKdigits("1234177711999", 3)); // 0
+
 	}
 
-	private static String minifiedNumber(String string, int k) {
+	public String removeKdigits(String num, int k) {
 
-		List<Character> list = new ArrayList<Character>();
-		for (int i = 0; i < string.length(); i++) {
-			list.add(string.charAt(i));
+		if (k >= num.length()) {
+			return 0 + "";
 		}
+		int max = Integer.parseInt(num.charAt(0) + "");
 
-		int max = Character.getNumericValue(list.get(0)), maxIndex = 0;
+		PriorityQueue<Element> pq = new PriorityQueue<Element>((a, b) -> {
+			return b.val - a.val;
+		});
+		Set<Integer> set = new HashSet<Integer>();
+		int lim = k;
+		collosion: {
+			for (int i = 0; i < num.length(); i++) {
+				int curr = Integer.parseInt(num.charAt(i) + "");
 
-		for (int i = 1; i < list.size(); i++) {
+				while (!pq.isEmpty()) {
+					Element el = pq.poll();
+					if (el.val > curr) {
+						set.add(el.index);
+						lim--;
+					} else {
+						pq.add(el);
+						break;
+					}
 
-			if (k == 0)
-				break;
+					if (lim == 0)
+						break collosion;
+				}
 
-			int cur = Character.getNumericValue(list.get(i));
-
-			if (cur > max) {
-				maxIndex = i;
-				max = cur;
+				pq.add(new Element(curr, i));
 			}
-
-			list.remove(maxIndex);
-			k--;
 		}
 
-		return Arrays.toString(list.toArray());
+		if (lim != 0 && lim < num.length()) {
+			num = num.substring(0, num.length() - lim);
+		}
+		System.out.println(set);
+		String ans = "";
+		for (int i = 0; i < num.length(); i++) {
+			if (set.contains(i) || (num.charAt(i) == '0' && ans.length() == 0))
+				continue;
+			ans = ans + num.charAt(i);
+		}
+		return ans.length() == 0 ? "0" : ans;
 	}
 
+	class Element {
+		int val;
+		int index;
+
+		public Element(int val, int index) {
+			this.val = val;
+			this.index = index;
+		}
+
+		public Element get() {
+			return this;
+		}
+	}
 }
-
-// 2432219
-// 2219
-
-//
-// min 2
-// for
-// min < str[i]
-// i++;
-// k--
-// else min = str[i]
-// print min

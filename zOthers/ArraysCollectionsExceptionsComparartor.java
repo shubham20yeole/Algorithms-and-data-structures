@@ -11,6 +11,11 @@ public class ArraysCollectionsExceptionsComparartor {
 
 	public static void main(String[] args) {
 
+		// ROUGH SPACE START
+		String test = "1.32.3.3";
+		System.out.println(Arrays.toString(test.split("\\.")));
+		// ROUGH SPACE END
+
 		Utils du = new Utils();
 
 		// Arrays Demo class
