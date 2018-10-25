@@ -1,7 +1,7 @@
-# Java Algorithms (83)
+# Java Algorithms (88)
 ### Table of contents
 
-- [Array (28)](https://github.com/shubham20yeole/Java/tree/master/Array)
+- [Array (29)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (9)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
@@ -11,13 +11,13 @@
 - [Matrix (10)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
 - [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
-- [String (11)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [String (15)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (3)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
-### Array (28)
+### Array (29)
 1. AsteroidCollision735.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/AsteroidCollision735.java) , [Reference](https://leetcode.com/problems/asteroid-collision/)
 
 2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](https://leetcode.com/problems/coin-change)
@@ -28,51 +28,53 @@
 
 5. ExclusiveTimeofFunctions636.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ExclusiveTimeofFunctions636.java) , [Reference](https://leetcode.com/problems/exclusive-time-of-functions/)
 
-6. FindMinimuminRotatedSortedArray153.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindMinimuminRotatedSortedArray153.java) , [Reference](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+6. FindAllDuplicatesInArray442.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindAllDuplicatesInArray442.java) , [Reference](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
-7. FindtheDuplicateNumber287.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindtheDuplicateNumber287.java) , [Reference](https://leetcode.com/problems/find-the-duplicate-number/description/)
+7. FindMinimuminRotatedSortedArray153.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindMinimuminRotatedSortedArray153.java) , [Reference](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
-8. FirstMissingPositive41.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FirstMissingPositive41.java) , [Reference](https://leetcode.com/problems/first-missing-positive/)
+8. FindtheDuplicateNumber287.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FindtheDuplicateNumber287.java) , [Reference](https://leetcode.com/problems/find-the-duplicate-number/description/)
 
-9. GenerateParentheses22.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/GenerateParentheses22.java) , [Reference](https://leetcode.com/problems/generate-parentheses/)
+9. FirstMissingPositive41.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/FirstMissingPositive41.java) , [Reference](https://leetcode.com/problems/first-missing-positive/)
 
-10. KthLargestElementinanArray215.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/KthLargestElementinanArray215.java) , [Reference](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
+10. GenerateParentheses22.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/GenerateParentheses22.java) , [Reference](https://leetcode.com/problems/generate-parentheses/)
 
-11. LargestNumber179.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/LargestNumber179.java) , [Reference](https://leetcode.com/problems/largest-number/description/)
+11. KthLargestElementinanArray215.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/KthLargestElementinanArray215.java) , [Reference](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
 
-12. LongestIncreasingSubsequence300.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/LongestIncreasingSubsequence300.java) , [Reference](https://leetcode.com/problems/longest-increasing-subsequence/description/)
+12. LargestNumber179.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/LargestNumber179.java) , [Reference](https://leetcode.com/problems/largest-number/description/)
 
-13. MaximumProductSubarray152.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MaximumProductSubarray152.java) , [Reference](https://leetcode.com/problems/maximum-product-subarray)
+13. LongestIncreasingSubsequence300.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/LongestIncreasingSubsequence300.java) , [Reference](https://leetcode.com/problems/longest-increasing-subsequence/description/)
 
-14. MeetingRoomsII253.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MeetingRoomsII253.java) , [Reference](https://leetcode.com/problems/meeting-rooms-ii)
+14. MaximumProductSubarray152.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MaximumProductSubarray152.java) , [Reference](https://leetcode.com/problems/maximum-product-subarray)
 
-15. MergeIntervals56.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MergeIntervals56.java) , [Reference](https://leetcode.com/problems/merge-intervals)
+15. MeetingRoomsII253.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MeetingRoomsII253.java) , [Reference](https://leetcode.com/problems/meeting-rooms-ii)
 
-16. NextPermutation31.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/NextPermutation31.java) , [Reference](https://leetcode.com/problems/next-permutation)
+16. MergeIntervals56.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/MergeIntervals56.java) , [Reference](https://leetcode.com/problems/merge-intervals)
 
-17. PartitionLabels763.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/PartitionLabels763.java) , [Reference](https://leetcode.com/problems/partition-labels/description/)
+17. NextPermutation31.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/NextPermutation31.java) , [Reference](https://leetcode.com/problems/next-permutation)
 
-18. Searcha2DMatrix74.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Searcha2DMatrix74.java) , [Reference](https://leetcode.com/problems/search-a-2d-matrix/description/)
+18. PartitionLabels763.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/PartitionLabels763.java) , [Reference](https://leetcode.com/problems/partition-labels/description/)
 
-19. SearchinRotatedSortedArray33.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SearchinRotatedSortedArray33.java) , [Reference](https://leetcode.com/problems/search-in-rotated-sorted-array)
+19. Searcha2DMatrix74.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Searcha2DMatrix74.java) , [Reference](https://leetcode.com/problems/search-a-2d-matrix/description/)
 
-20. StoneGame877.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/StoneGame877.java) , [Reference](https://leetcode.com/problems/stone-game/description/)
+20. SearchinRotatedSortedArray33.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SearchinRotatedSortedArray33.java) , [Reference](https://leetcode.com/problems/search-in-rotated-sorted-array)
 
-21. SubarraySumEqualsK560.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SubarraySumEqualsK560.java) , [Reference](https://leetcode.com/problems/subarray-sum-equals-k)
+21. StoneGame877.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/StoneGame877.java) , [Reference](https://leetcode.com/problems/stone-game/description/)
 
-22. Subsets78.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Subsets78.java) , [Reference](https://leetcode.com/problems/subsets)
+22. SubarraySumEqualsK560.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SubarraySumEqualsK560.java) , [Reference](https://leetcode.com/problems/subarray-sum-equals-k)
 
-23. SuperUglyNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SuperUglyNumber.java) , [Reference](https://leetcode.com/problems/super-ugly-number/description/)
+23. Subsets78.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/Subsets78.java) , [Reference](https://leetcode.com/problems/subsets)
 
-24. TaskScheduler621.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TaskScheduler621.java) , [Reference](https://leetcode.com/problems/task-scheduler)
+24. SuperUglyNumber.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/SuperUglyNumber.java) , [Reference](https://leetcode.com/problems/super-ugly-number/description/)
 
-25. ThreeSum15.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSum15.java) , [Reference](https://leetcode.com/problems/3sum)
+25. TaskScheduler621.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TaskScheduler621.java) , [Reference](https://leetcode.com/problems/task-scheduler)
 
-26. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
+26. ThreeSum15.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSum15.java) , [Reference](https://leetcode.com/problems/3sum)
 
-27. TopKFrequentWords692.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentWords692.java) , [Reference](https://leetcode.com/problems/top-k-frequent-words/description/)
+27. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
 
-28. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
+28. TopKFrequentWords692.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentWords692.java) , [Reference](https://leetcode.com/problems/top-k-frequent-words/description/)
+
+29. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
 ### BST (9)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
@@ -153,28 +155,36 @@
 
 2. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
-### String (11)
-1. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
+### String (15)
+1. BasicCalculatorII227.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/BasicCalculatorII227.java) , [Reference](https://leetcode.com/problems/basic-calculator-ii/)
 
-2. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
+2. CompareVersionNumbers165.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/CompareVersionNumbers165.java) , [Reference](https://leetcode.com/problems/compare-version-numbers/)
 
-3. LongestSubstringWithoutRepeatingCharacters3.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestSubstringWithoutRepeatingCharacters3.java) , [Reference](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+3. DecodeString394.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/DecodeString394.java) , [Reference](https://leetcode.com/problems/decode-string)
 
-4. MinimumWindowSubstring76.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumWindowSubstring76.java) , [Reference](ckage String;)
+4. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
 
-5. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
+5. LongestSubstringWithoutRepeatingCharacters3.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestSubstringWithoutRepeatingCharacters3.java) , [Reference](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-6. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
+6. MinimumTimeDifference539.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumTimeDifference539.java) , [Reference](https://leetcode.com/problems/minimum-time-difference/)
 
-7. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
+7. MinimumWindowSubstring76.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumWindowSubstring76.java) , [Reference](ckage String;)
 
-8. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
+8. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
 
-9. SimplifyPath71.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SimplifyPath71.java) , [Reference](https://leetcode.com/problems/simplify-path/)
+9. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
 
-10. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+10. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
 
-11. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+11. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
+
+12. RepeatedDNASequences187.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RepeatedDNASequences187.java) , [Reference](https://leetcode.com/problems/repeated-dna-sequences/)
+
+13. SimplifyPath71.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SimplifyPath71.java) , [Reference](https://leetcode.com/problems/simplify-path/)
+
+14. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+
+15. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
 
 ### Trie (1)
 1. ImplementTrie208.java [Git](https://github.com/shubham20yeole/Java/blob/master/Trie/ImplementTrie208.java) , [Reference](https://leetcode.com/problems/implement-trie-prefix-tree/)
