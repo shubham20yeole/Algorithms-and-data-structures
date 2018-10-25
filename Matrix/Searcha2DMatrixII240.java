@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/search-a-2d-matrix-ii
+//https://leetcode.com/problems/search-a-2d-matrix-ii/
 package Matrix;
 
 /**
@@ -17,57 +17,51 @@ package Matrix;
 public class Searcha2DMatrixII240 {
 
 	public static void main(String[] args) {
-		int[][] mat = new int[10][10];
 
-		int count = 1;
+		Searcha2DMatrixII240 cn = new Searcha2DMatrixII240();
 
-		for (int row = 0; row < mat.length; row++) {
-			for (int col = 0; col < mat[row].length; col++) {
-				mat[row][col] = count++;
-			}
-		}
+		int[][] mat = { { 1, 3, 5, 7 }, { 10, 11, 16, 20 }, { 23, 30, 34, 50 } };
 
-		int[] ans = findIndexOf(25, mat);
-
-		System.out.println(ans[0] + " : " + ans[1] + " : " + mat[ans[0]][ans[1]]);
+		System.out.println(cn.searchMatrix(mat, 3));
 	}
 
-	private static int[] findIndexOf(int no, int[][] mat) {
+	public boolean searchMatrix(int[][] matrix, int target) {
 
-		int lastRow = mat.length, firstRow = 0, medianRowIndex = getMedian(firstRow, lastRow), hardCoadColIndex = 0;
+		if (matrix.length == 0)
+			return false;
 
-		while (!(lastRow - firstRow <= 1)) {
-			if (no < mat[medianRowIndex][hardCoadColIndex]) {
-				lastRow = medianRowIndex;
-				medianRowIndex = getMedian(firstRow, lastRow);
-			} else {
-				firstRow = medianRowIndex;
-				medianRowIndex = getMedian(firstRow, lastRow);
-			}
-
+		for (int i = 0; i < matrix.length; i++) {
+			int ans = searchRow(matrix[i], 0, matrix[i].length - 1, target);
+			if (ans < 0)
+				continue;
+			if (matrix[i][ans] == target)
+				return true;
 		}
 
-		// Once you are here, you already found the row in which your element is located
-		// Not its time to find column index
-
-		int[] rowArray = mat[medianRowIndex];
-
-		int rightIndex = rowArray.length, leftIndex = 0, medianColIndex = getMedian(leftIndex, rightIndex);
-
-		while (!(rightIndex - leftIndex <= 1)) {
-			if (no < rowArray[medianColIndex]) {
-				rightIndex = medianColIndex;
-				medianColIndex = getMedian(leftIndex, rightIndex);
-			} else {
-				leftIndex = medianColIndex;
-				medianColIndex = getMedian(leftIndex, rightIndex);
-			}
-		}
-
-		return new int[] { medianRowIndex, medianColIndex };
+		return false;
 	}
 
-	private static int getMedian(int l, int h) {
-		return l + ((h - l) / 2);
+	private int searchRow(int[] row, int top, int bottom, int target) {
+		if (row.length == 0)
+			return -1;
+
+		int mid = (top + bottom) / 2;
+		if (bottom - top <= 1) {
+			if (target >= row[bottom])
+				return bottom;
+			else
+				return top;
+		}
+
+		if (target == row[mid])
+			return mid;
+
+		if (target < row[mid])
+			return searchRow(row, top, mid, target);
+
+		if (target > row[mid])
+			return searchRow(row, mid, bottom, target);
+
+		return -1;
 	}
 }
