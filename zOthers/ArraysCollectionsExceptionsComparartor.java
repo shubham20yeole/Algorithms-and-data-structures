@@ -4,8 +4,10 @@ package zOthers;
 import Utils.Utils;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class ArraysCollectionsExceptionsComparartor {
 
@@ -14,6 +16,12 @@ public class ArraysCollectionsExceptionsComparartor {
 		// ROUGH SPACE START
 		String test = "1.32.3.3";
 		System.out.println(Arrays.toString(test.split("\\.")));
+		Map<Student, Integer> testMap = new HashMap<Student, Integer>();
+		testMap.put(new Student(1, "Shubham"), 1);
+		testMap.put(new Student(1, "Shubham"), 2);
+		testMap.forEach((key, value) -> {
+			System.out.println(key.id + ": " + key.name + " - " + value);
+		});
 		// ROUGH SPACE END
 
 		Utils du = new Utils();
@@ -68,8 +76,8 @@ public class ArraysCollectionsExceptionsComparartor {
 }
 
 class Student implements Comparable {
-	private int id;
-	private String name;
+	public int id;
+	public String name;
 
 	Student(int id, String name) {
 		this.id = id;

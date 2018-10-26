@@ -1,4 +1,4 @@
-# Java Algorithms (89)
+# Java Algorithms (90)
 ### Table of contents
 
 - [Array (29)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -8,7 +8,7 @@
 - [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
-- [Matrix (11)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
+- [Matrix (12)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
 - [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
 - [String (15)](https://github.com/shubham20yeole/Java/tree/master/String)
@@ -126,7 +126,7 @@
 
 2. EncodeandDecodeTinyURL535.java [Git](https://github.com/shubham20yeole/Java/blob/master/Map/EncodeandDecodeTinyURL535.java) , [Reference](https://leetcode.com/problems/encode-and-decode-tinyurl)
 
-### Matrix (11)
+### Matrix (12)
 1. FriendCircles547.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/FriendCircles547.java) , [Reference](https://leetcode.com/problems/friend-circles)
 
 2. MakingALargeIsland827.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/MakingALargeIsland827.java) , [Reference](https://leetcode.com/problems/making-a-large-island)
@@ -145,9 +145,11 @@
 
 9. SpiralMatrix54.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SpiralMatrix54.java) , [Reference](https://leetcode.com/problems/spiral-matrix)
 
-10. UniquePathsII63.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/UniquePathsII63.java) , [Reference](https://leetcode.com/problems/unique-paths-ii)
+10. SpiralMatrixII59.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/SpiralMatrixII59.java) , [Reference](https://leetcode.com/problems/spiral-matrix-ii/)
 
-11. WordSearchII212.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/WordSearchII212.java) , [Reference](https://leetcode.com/problems/word-search-ii/description/)
+11. UniquePathsII63.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/UniquePathsII63.java) , [Reference](https://leetcode.com/problems/unique-paths-ii)
+
+12. WordSearchII212.java [Git](https://github.com/shubham20yeole/Java/blob/master/Matrix/WordSearchII212.java) , [Reference](https://leetcode.com/problems/word-search-ii/description/)
 
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
