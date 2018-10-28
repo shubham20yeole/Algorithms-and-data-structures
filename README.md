@@ -1,16 +1,16 @@
-# Java Algorithms (90)
+# Java Algorithms (92)
 ### Table of contents
 
 - [Array (29)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (9)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
-- [Graph (2)](https://github.com/shubham20yeole/Java/tree/master/Graph)
+- [Graph (3)](https://github.com/shubham20yeole/Java/tree/master/Graph)
 - [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (12)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
-- [Stack (2)](https://github.com/shubham20yeole/Java/tree/master/Stack)
+- [Stack (3)](https://github.com/shubham20yeole/Java/tree/master/Stack)
 - [String (15)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
@@ -103,10 +103,12 @@
 ### DataStructureDesign (1)
 1. AddandSearchWordDatastructuredesign211.java [Git](https://github.com/shubham20yeole/Java/blob/master/DataStructureDesign/AddandSearchWordDatastructuredesign211.java) , [Reference](https://leetcode.com/problems/add-and-search-word-data-structure-design/description/)
 
-### Graph (2)
-1. CourseSchedule207.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/CourseSchedule207.java) , [Reference](https://leetcode.com/problems/course-schedule/description/)
+### Graph (3)
+1. CheapestFlightsWithinKStops787.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/CheapestFlightsWithinKStops787.java) , [Reference](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
-2. EvaluateDivision399.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/EvaluateDivision399.java) , [Reference](https://leetcode.com/problems/evaluate-division)
+2. CourseSchedule207.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/CourseSchedule207.java) , [Reference](https://leetcode.com/problems/course-schedule/description/)
+
+3. EvaluateDivision399.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/EvaluateDivision399.java) , [Reference](https://leetcode.com/problems/evaluate-division)
 
 ### List (6)
 1. AADoublyLinkedList.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/AADoublyLinkedList.java) , [Reference](https://www.geeksforgeeks.org/doubly-linked-list/)
@@ -154,10 +156,12 @@
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-### Stack (2)
+### Stack (3)
 1. BasicCalculator224.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/BasicCalculator224.java) , [Reference](https://leetcode.com/problems/basic-calculator/)
 
 2. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+
+3. ImplementQueueUsingStack232.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/ImplementQueueUsingStack232.java) , [Reference](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 ### String (15)
 1. BasicCalculatorII227.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/BasicCalculatorII227.java) , [Reference](https://leetcode.com/problems/basic-calculator-ii/)
