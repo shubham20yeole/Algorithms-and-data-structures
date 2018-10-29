@@ -1,4 +1,4 @@
-# Java Algorithms (93)
+# Java Algorithms (94)
 ### Table of contents
 
 - [Array (30)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -6,7 +6,7 @@
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
 - [Graph (3)](https://github.com/shubham20yeole/Java/tree/master/Graph)
-- [List (6)](https://github.com/shubham20yeole/Java/tree/master/List)
+- [List (7)](https://github.com/shubham20yeole/Java/tree/master/List)
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (12)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
@@ -112,18 +112,20 @@
 
 3. EvaluateDivision399.java [Git](https://github.com/shubham20yeole/Java/blob/master/Graph/EvaluateDivision399.java) , [Reference](https://leetcode.com/problems/evaluate-division)
 
-### List (6)
+### List (7)
 1. AADoublyLinkedList.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/AADoublyLinkedList.java) , [Reference](https://www.geeksforgeeks.org/doubly-linked-list/)
 
 2. AAStackUsingLinkedList.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/AAStackUsingLinkedList.java) , [Reference](https://www.geeksforgeeks.org/doubly-linked-list/)
 
 3. AddTwoNumbers2.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/AddTwoNumbers2.java) , [Reference](https://leetcode.com/problems/add-two-numbers)
 
-4. MergekSortedLists23.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/MergekSortedLists23.java) , [Reference](https://leetcode.com/problems/merge-k-sorted-lists)
+4. AddTwoNumbersII445.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/AddTwoNumbersII445.java) , [Reference](https://leetcode.com/problems/add-two-numbers-ii/)
 
-5. ReverseLinkedListII92.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/ReverseLinkedListII92.java) , [Reference](https://leetcode.com/problems/reverse-linked-list-ii)
+5. MergekSortedLists23.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/MergekSortedLists23.java) , [Reference](https://leetcode.com/problems/merge-k-sorted-lists)
 
-6. SwapCharacteAtMostKTimes.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/SwapCharacteAtMostKTimes.java) , [Reference](SwapCharacteAtMostKTimes)
+6. ReverseLinkedListII92.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/ReverseLinkedListII92.java) , [Reference](https://leetcode.com/problems/reverse-linked-list-ii)
+
+7. SwapCharacteAtMostKTimes.java [Git](https://github.com/shubham20yeole/Java/blob/master/List/SwapCharacteAtMostKTimes.java) , [Reference](SwapCharacteAtMostKTimes)
 
 ### Map (2)
 1. AAHashMapUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Map/AAHashMapUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html)
