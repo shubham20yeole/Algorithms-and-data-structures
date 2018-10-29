@@ -1,7 +1,7 @@
-# Java Algorithms (92)
+# Java Algorithms (93)
 ### Table of contents
 
-- [Array (29)](https://github.com/shubham20yeole/Java/tree/master/Array)
+- [Array (30)](https://github.com/shubham20yeole/Java/tree/master/Array)
 - [BST (9)](https://github.com/shubham20yeole/Java/tree/master/BST)
 - [Bucket (2)](https://github.com/shubham20yeole/Java/tree/master/Bucket)
 - [DataStructureDesign (1)](https://github.com/shubham20yeole/Java/tree/master/DataStructureDesign)
@@ -17,7 +17,7 @@
 - [zOthers (3)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
 
 
-### Array (29)
+### Array (30)
 1. AsteroidCollision735.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/AsteroidCollision735.java) , [Reference](https://leetcode.com/problems/asteroid-collision/)
 
 2. CoinChange322.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/CoinChange322.java) , [Reference](https://leetcode.com/problems/coin-change)
@@ -72,9 +72,11 @@
 
 27. ThreeSumClosest16.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/ThreeSumClosest16.java) , [Reference](https://leetcode.com/problems/3sum-closest)
 
-28. TopKFrequentWords692.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentWords692.java) , [Reference](https://leetcode.com/problems/top-k-frequent-words/description/)
+28. TopKFrequentElements347.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentElements347.java) , [Reference](https://leetcode.com/problems/top-k-frequent-elements/)
 
-29. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
+29. TopKFrequentWords692.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/TopKFrequentWords692.java) , [Reference](https://leetcode.com/problems/top-k-frequent-words/description/)
+
+30. WordBreak139.java [Git](https://github.com/shubham20yeole/Java/blob/master/Array/WordBreak139.java) , [Reference](https://leetcode.com/problems/word-break)
 
 ### BST (9)
 1. BinarySearchTree.java [Git](https://github.com/shubham20yeole/Java/blob/master/BST/BinarySearchTree.java) , [Reference](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)

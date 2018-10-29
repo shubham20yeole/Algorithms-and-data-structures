@@ -16,6 +16,11 @@ public class ArraysCollectionsExceptionsComparartor {
 		// ROUGH SPACE START
 		String test = "1.32.3.3";
 		System.out.println(Arrays.toString(test.split("\\.")));
+
+		test = "9//99//";
+		System.out.println(Arrays.toString(test.split("/")));
+		System.out.println(test.split("/").length);
+
 		Map<Student, Integer> testMap = new HashMap<Student, Integer>();
 		testMap.put(new Student(1, "Shubham"), 1);
 		testMap.put(new Student(1, "Shubham"), 2);
