@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/basic-calculator/
-package Stack;
+package StackQueueAndPriorityQueue;
 
 import Utils.Utils;
 import java.util.Stack;

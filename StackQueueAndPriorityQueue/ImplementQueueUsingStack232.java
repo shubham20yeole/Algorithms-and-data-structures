@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/implement-queue-using-stacks/
-package Stack;
+package StackQueueAndPriorityQueue;
 
 import java.util.Stack;
 

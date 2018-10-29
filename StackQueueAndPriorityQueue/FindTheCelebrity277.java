@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/find-the-celebrity/
-package Stack;
+package StackQueueAndPriorityQueue;
 
 import java.util.Stack;
 

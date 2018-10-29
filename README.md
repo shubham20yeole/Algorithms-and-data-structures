@@ -1,4 +1,4 @@
-# Java Algorithms (95)
+# Java Algorithms (96)
 ### Table of contents
 
 - [Array (30)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -10,7 +10,7 @@
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (12)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
-- [Stack (4)](https://github.com/shubham20yeole/Java/tree/master/Stack)
+- [StackQueueAndPriorityQueue (5)](https://github.com/shubham20yeole/Java/tree/master/StackQueueAndPriorityQueue)
 - [String (15)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
@@ -160,14 +160,16 @@
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-### Stack (4)
-1. BasicCalculator224.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/BasicCalculator224.java) , [Reference](https://leetcode.com/problems/basic-calculator/)
+### StackQueueAndPriorityQueue (5)
+1. BasicCalculator224.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/BasicCalculator224.java) , [Reference](https://leetcode.com/problems/basic-calculator/)
 
-2. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
+2. DailyTemperatures739.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/DailyTemperatures739.java) , [Reference](https://leetcode.com/problems/daily-temperatures/)
 
-3. FindTheCelebrity277.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/FindTheCelebrity277.java) , [Reference](https://leetcode.com/problems/find-the-celebrity/)
+3. EvaluateReversePolishNotation150.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/EvaluateReversePolishNotation150.java) , [Reference](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 
-4. ImplementQueueUsingStack232.java [Git](https://github.com/shubham20yeole/Java/blob/master/Stack/ImplementQueueUsingStack232.java) , [Reference](https://leetcode.com/problems/implement-queue-using-stacks/)
+4. FindTheCelebrity277.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/FindTheCelebrity277.java) , [Reference](https://leetcode.com/problems/find-the-celebrity/)
+
+5. ImplementQueueUsingStack232.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/ImplementQueueUsingStack232.java) , [Reference](https://leetcode.com/problems/implement-queue-using-stacks/)
 
 ### String (15)
 1. BasicCalculatorII227.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/BasicCalculatorII227.java) , [Reference](https://leetcode.com/problems/basic-calculator-ii/)

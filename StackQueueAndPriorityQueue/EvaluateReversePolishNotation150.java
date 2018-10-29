@@ -1,5 +1,5 @@
 //https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
-package Stack;
+package StackQueueAndPriorityQueue;
 
 import Utils.Utils;
 import java.util.Arrays;
