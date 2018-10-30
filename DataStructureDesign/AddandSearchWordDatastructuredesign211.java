@@ -1,48 +1,28 @@
 //https://leetcode.com/problems/add-and-search-word-data-structure-design/description/
 package DataStructureDesign;
 
-import Utils.Utils;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Arrays;
 
-public class AddandSearchWordDatastructuredesign211 {
-
-	static Utils utils = new Utils();
-
-	Utils util = new Utils();
-
-	public static void main(String[] args) {
-
-		AddandSearchWordDatastructuredesign211 cn = new AddandSearchWordDatastructuredesign211();
-		WordDictionary wordDictionary = new WordDictionary();
-
-		String[] words = { "WordDictionary", "addWord", "addWord", "search", "search", "search", "search", "search",
-				"search", "search", "search" };
-		String[][] queries = { { "...Word" }, { "ab" }, { "a" }, { "a." }, { "ab" }, { ".a" }, { ".b" }, { "ab." }, { "." },
-				{ ".." } };
-
-		for (String word : words)
-			wordDictionary.addWord(word);
-
-		for (String[] query : queries)
-			System.out.printf("%s - %s\n", query[0], wordDictionary.search(query[0]));
-
-		utils.printLine();
-
-	}
-}
-
-class WordDictionary {
-	public Set<String> set;
-
+class AddandSearchWordDatastructuredesign211 {
 	/** Initialize your data structure here. */
-	public WordDictionary() {
-		this.set = new HashSet<String>();
+	TireNode root;
+
+	public AddandSearchWordDatastructuredesign211() {
+		root = new TireNode();
 	}
 
 	/** Adds a word into the data structure. */
 	public void addWord(String word) {
-		set.add(word);
+		TireNode head = root;
+		for (int i = 0; i < word.length(); i++) {
+			int curr = word.charAt(i) - 'a';
+			if (head.childrens[curr] == null) {
+				head.childrens[curr] = new TireNode();
+			}
+			head = head.childrens[curr];
+		}
+
+		head.isLeafNode = true;
 	}
 
 	/**
@@ -50,26 +30,46 @@ class WordDictionary {
 	 * character '.' to represent any one letter.
 	 */
 	public boolean search(String word) {
-		if (this.set.contains(word))
-			return true;
-		char[] arr = word.toCharArray();
-		boolean flag = false;
+		return search(word, this.root);
+	}
 
-		for (String w : this.set) {
-
-			if (arr.length != w.length())
-				continue;
-			for (int i = 0; i < arr.length; i++) {
-				char c = arr[i];
-				if (c != '.' && w.charAt(i) != c)
-					break;
-				else
-					flag = true;
+	public boolean search(String word, TireNode root) {
+		TireNode head = root;
+		for (int i = 0; i < word.length(); i++) {
+			if (word.charAt(i) == '.') {
+				for (int j = 0; j < head.childrens.length; j++) {
+					if (head.childrens[j] == null)
+						continue;
+					if (search(word.substring(i + 1, word.length()), head.childrens[j]))
+						return true;
+				}
+				return false;
 			}
-			if (flag)
-				return flag;
+			int curr = word.charAt(i) - 'a';
+			if (head.childrens[curr] == null) {
+				return false;
+			}
+			head = head.childrens[curr];
 		}
 
-		return false;
+		return head.isLeafNode == true;
+	}
+
+	class TireNode {
+		int MAX_ALPHABETS = 26;
+		TireNode[] childrens;
+		boolean isLeafNode;
+
+		public TireNode() {
+			this.childrens = new TireNode[this.MAX_ALPHABETS];
+			Arrays.fill(childrens, null);
+			this.isLeafNode = false;
+		}
 	}
 }
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * WordDictionary obj = new WordDictionary(); obj.addWord(word); boolean param_2
+ * = obj.search(word);
+ */

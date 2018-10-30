@@ -1,6 +1,8 @@
 //https://leetcode.com/problems/implement-trie-prefix-tree/
 package Trie;
 
+import java.util.Arrays;
+
 /* 
  * TrieNode
  * 			Variables: Max_ALPHABETS, TrieNode Array, isLeafNode
@@ -74,10 +76,8 @@ public class ImplementTrie208 {
 
 		public TrieNode() {
 			this.isLeafNode = false;
-			this.childrens = new TrieNode[26];
-			for (int i = 0; i < this.childrens.length; i++) {
-				this.childrens[i] = null;
-			}
+			this.childrens = new TrieNode[this.MAX_ALPHABET];
+			Arrays.fill(this.childrens, null);
 		}
 	}
 }
