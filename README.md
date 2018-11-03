@@ -1,4 +1,4 @@
-# Java Algorithms (96)
+# Java Algorithms (98)
 ### Table of contents
 
 - [Array (30)](https://github.com/shubham20yeole/Java/tree/master/Array)
@@ -10,8 +10,8 @@
 - [Map (2)](https://github.com/shubham20yeole/Java/tree/master/Map)
 - [Matrix (12)](https://github.com/shubham20yeole/Java/tree/master/Matrix)
 - [Set (1)](https://github.com/shubham20yeole/Java/tree/master/Set)
-- [StackQueueAndPriorityQueue (5)](https://github.com/shubham20yeole/Java/tree/master/StackQueueAndPriorityQueue)
-- [String (15)](https://github.com/shubham20yeole/Java/tree/master/String)
+- [StackQueueAndPriorityQueue (6)](https://github.com/shubham20yeole/Java/tree/master/StackQueueAndPriorityQueue)
+- [String (16)](https://github.com/shubham20yeole/Java/tree/master/String)
 - [Trie (1)](https://github.com/shubham20yeole/Java/tree/master/Trie)
 - [Utils (4)](https://github.com/shubham20yeole/Java/tree/master/Utils)
 - [zOthers (3)](https://github.com/shubham20yeole/Java/tree/master/zOthers)
@@ -160,7 +160,7 @@
 ### Set (1)
 1. AAHashSetUsage.java [Git](https://github.com/shubham20yeole/Java/blob/master/Set/AAHashSetUsage.java) , [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-### StackQueueAndPriorityQueue (5)
+### StackQueueAndPriorityQueue (6)
 1. BasicCalculator224.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/BasicCalculator224.java) , [Reference](https://leetcode.com/problems/basic-calculator/)
 
 2. DailyTemperatures739.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/DailyTemperatures739.java) , [Reference](https://leetcode.com/problems/daily-temperatures/)
@@ -171,7 +171,9 @@
 
 5. ImplementQueueUsingStack232.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/ImplementQueueUsingStack232.java) , [Reference](https://leetcode.com/problems/implement-queue-using-stacks/)
 
-### String (15)
+6. LongestValidParenthesis32.java [Git](https://github.com/shubham20yeole/Java/blob/master/StackQueueAndPriorityQueue/LongestValidParenthesis32.java) , [Reference](https://leetcode.com/problems/longest-valid-parentheses/)
+
+### String (16)
 1. BasicCalculatorII227.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/BasicCalculatorII227.java) , [Reference](https://leetcode.com/problems/basic-calculator-ii/)
 
 2. CompareVersionNumbers165.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/CompareVersionNumbers165.java) , [Reference](https://leetcode.com/problems/compare-version-numbers/)
@@ -180,27 +182,29 @@
 
 4. GroupAnagrams49.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/GroupAnagrams49.java) , [Reference](https://leetcode.com/problems/group-anagrams)
 
-5. LongestSubstringWithoutRepeatingCharacters3.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestSubstringWithoutRepeatingCharacters3.java) , [Reference](https://leetcode.com/problems/longest-substring-without-repeating-characters)
+5. LongestPalindromicSubString5.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestPalindromicSubString5.java) , [Reference](https://leetcode.com/problems/longest-palindromic-substring/)
 
-6. MinimumTimeDifference539.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumTimeDifference539.java) , [Reference](https://leetcode.com/problems/minimum-time-difference/)
+6. LongestSubstringWithoutRepeatingCharacters3.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/LongestSubstringWithoutRepeatingCharacters3.java) , [Reference](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-7. MinimumWindowSubstring76.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumWindowSubstring76.java) , [Reference](ckage String;)
+7. MinimumTimeDifference539.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumTimeDifference539.java) , [Reference](https://leetcode.com/problems/minimum-time-difference/)
 
-8. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
+8. MinimumWindowSubstring76.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MinimumWindowSubstring76.java) , [Reference](ckage String;)
 
-9. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
+9. MultiplyStrings43.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/MultiplyStrings43.java) , [Reference](https://leetcode.com/problems/multiply-strings)
 
-10. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
+10. NextClosestTime681.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/NextClosestTime681.java) , [Reference](https://leetcode.com/problems/next-closest-time/)
 
-11. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
+11. RemoveComments722.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveComments722.java) , [Reference](https://leetcode.com/problems/remove-comments)
 
-12. RepeatedDNASequences187.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RepeatedDNASequences187.java) , [Reference](https://leetcode.com/problems/repeated-dna-sequences/)
+12. RemoveKDigits402.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RemoveKDigits402.java) , [Reference](https://leetcode.com/problems/remove-k-digits)
 
-13. SimplifyPath71.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SimplifyPath71.java) , [Reference](https://leetcode.com/problems/simplify-path/)
+13. RepeatedDNASequences187.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/RepeatedDNASequences187.java) , [Reference](https://leetcode.com/problems/repeated-dna-sequences/)
 
-14. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+14. SimplifyPath71.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SimplifyPath71.java) , [Reference](https://leetcode.com/problems/simplify-path/)
 
-15. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
+15. StringtoInteger8.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/StringtoInteger8.java) , [Reference](https://leetcode.com/problems/string-to-integer-atoi)
+
+16. SubstringwithConcatenationofAllWords30.java [Git](https://github.com/shubham20yeole/Java/blob/master/String/SubstringwithConcatenationofAllWords30.java) , [Reference](https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/)
 
 ### Trie (1)
 1. ImplementTrie208.java [Git](https://github.com/shubham20yeole/Java/blob/master/Trie/ImplementTrie208.java) , [Reference](https://leetcode.com/problems/implement-trie-prefix-tree/)
