@@ -5,6 +5,7 @@ import Utils.Utils;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -12,6 +13,19 @@ import java.util.Map;
 public class ArraysCollectionsExceptionsComparartor {
 
 	public static void main(String[] args) {
+
+		// LinkedHashMap
+		Map<Integer, Integer> order = new LinkedHashMap<Integer, Integer>();
+		for (int i = 0; i < 10; i++) {
+			order.put(i, i);
+		}
+
+		// System.out.println(order);
+
+		// order.remove(5);
+		System.out.println(order);
+		order.put(5, 55);
+		System.out.println(order);
 
 		// ROUGH SPACE START
 		String test = "1.32.3.3";
